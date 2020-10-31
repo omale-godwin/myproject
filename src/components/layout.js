@@ -8,7 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { FaBeer } from 'react-icons';
 
 import "./layout.css";
 import "./bootstrap.min.css";
@@ -17,7 +16,7 @@ const Layout = ({ children }) => {
   return (
     <>
      <h1>that</h1>
-     {children}<FaBeer />
+     {children}
     </>
   )
 }
